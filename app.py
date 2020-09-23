@@ -7,7 +7,7 @@ import joblib
 import numpy as np
 import tensorflow as tf
 
-from PIL import Image
+
 from flask import Flask, request, jsonify
 
 # load model
