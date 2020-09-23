@@ -41,6 +41,6 @@ def predict():
     # retornar json
     return jsonify({'predictions': prediction.tolist()})
 
-app.run()
+app.run(host='localhost', port=5000, debug=True)
 
 
